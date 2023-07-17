@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>  eklentisini kaldırırsak useEffect ve diğer özellikler 2 kere çalışmayacaktır.
+  <React.StrictMode> 
     <App />
   </React.StrictMode>
 );
